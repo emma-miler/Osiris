@@ -13,6 +13,7 @@ class Program
         Log.Warning("test");
         Log.Error("test");
         Log.Critical("test");
+        Log.Custom(Microsoft.Extensions.Logging.LogLevel.Information, "test", null, ConsoleColor.Cyan, ConsoleColor.DarkYellow);
         throw new WebException("test exception");
     }
 }

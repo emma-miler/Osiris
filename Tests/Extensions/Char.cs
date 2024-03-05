@@ -14,6 +14,7 @@ namespace Tests.Extensions
         public void Repeat()
         {
             Assert.AreEqual("ttt", 't'.Repeat(3));
+            
         }
     }
 }

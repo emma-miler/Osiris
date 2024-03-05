@@ -1,0 +1,9 @@
+(2024-03-05 16:52:19.1866) <Program.cs@Main:10> [TRAC] test
+(2024-03-05 16:52:23.6467) <Program.cs@Main:11> [DBUG] test
+(2024-03-05 16:52:23.6469) <Program.cs@Main:12> [INFO] test
+(2024-03-05 16:52:23.6470) <Program.cs@Main:13> [WARN] test
+(2024-03-05 16:52:23.6472) <Program.cs@Main:14> [ERRR] test
+(2024-03-05 16:52:23.6474) <Program.cs@Main:15> [CRIT] test
+(2024-03-05 16:52:23.6475) <Program.cs@Main:16> [INFO] test
+(2024-03-05 16:52:23.6541) <OSIRIS@ERROR_HANDLER:0> [ERRR] test exception
+(2024-03-05 16:52:23.6937) <OSIRIS@ERROR_HANDLER:0> [ERRR]    at Program.Main() in /home/emma/source/Osiris/OsirisTest/Program.cs:line 17

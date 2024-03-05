@@ -1,0 +1,4 @@
+(2024-03-05 16:51:07.7289) <Program.cs@Main:10> [TRAC] test
+(2024-03-05 16:51:07.7670) <Program.cs@Main:11> [DBUG] test
+(2024-03-05 16:51:07.7671) <Program.cs@Main:12> [INFO] test
+(2024-03-05 16:51:07.7673) <Program.cs@Main:13> [WARN] test

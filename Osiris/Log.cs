@@ -161,6 +161,20 @@ public class Log
         _Log(LogLevel.Critical, message, tag, _name, _path, _line, ConsoleColor.DarkRed, ConsoleColor.White);
     }
 
+    public static void Custom(LogLevel level,
+            string message,
+            string? tag = null,
+            ConsoleColor foreground = ConsoleColor.White,
+            ConsoleColor background = ConsoleColor.Black,
+            [CallerMemberName] string _name = "",
+            [CallerFilePath] string _path = "",
+            [CallerLineNumber] int _line = 0
+        )
+    {
+        _Log(level, message, tag, _name, _path, _line, background, foreground);
+    }
+
+
     #endregion Logging Functions
 
     #region Private Members
